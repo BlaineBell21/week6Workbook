@@ -1,4 +1,6 @@
-package com.pluralsight;
+package com.pluralsight.model;
+
+//this is the super class
 
 public abstract class Animal {
     private String name;
