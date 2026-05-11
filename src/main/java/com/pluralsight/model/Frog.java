@@ -4,9 +4,4 @@ package com.pluralsight.model;
 
 public class Frog extends Animal {
 
-    @Override
-    public void makesSound() {
-        System.out.println("Ribbit Ribbit");
-        System.out.println("Croak");
-    }
 }

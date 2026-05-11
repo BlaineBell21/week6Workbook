@@ -4,10 +4,5 @@ package com.pluralsight.model;
 
 public class Bird extends Animal {
 
-    @Override
-    public void makesSound() {
-        System.out.println("Caw Caw");
-        System.out.println("Peep");
-    }
 
 }

@@ -1,13 +1,20 @@
 package com.pluralsight.model;
 
-//dog is a child-class of the animal class
+
 
 public class Dog extends Animal {
 
+//The dog is a Child-class (a.k.a. subclass from Animal)
+
+
+    public Dog(String _name) {
+       super(_name); //Calls animal constructor
+       this.setName(_name);
+    }
 
     @Override
-    public void makesSound() {
-        System.out.println("Woef Woef");
-        System.out.println("Bark");
+    public void makeSound() {
+       System.out.print(getName() + "says WOEF");
     }
+
 }
