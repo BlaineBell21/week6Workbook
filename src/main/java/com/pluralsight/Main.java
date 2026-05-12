@@ -21,7 +21,5 @@ public class Main {
         m1.getVehicleBrand();
         c1.getNumberOfPassengers();
         s1.getVehicleModel();
-
     }
-
 }
